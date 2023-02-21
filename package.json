@@ -1,0 +1,21 @@
+{
+  "name": "aplic-jap-collection",
+  "version": "1.0.0",
+  "description": "Api rest para appa de aplicacciones",
+  "main": "index.js",
+  "scripts": {
+    "test": " express,mongoose,nodemon,router-dom,cors"
+  },
+  "keywords": [
+    "class.express.commonm"
+  ],
+  "author": "jesus alberto cruz metelin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "espress": "^0.0.0",
+    "git": "^0.1.5",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
