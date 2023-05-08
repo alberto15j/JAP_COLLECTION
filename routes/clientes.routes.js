@@ -3,11 +3,11 @@ const clientesController= require("../controller/clientes.controller");
 
 const api=express.Router();
 
-api.post("/alumno",clientesController.createclientes);
-api.get("/alumnos",clientesController.getclientes);
-api.delete("/alumno/:id",clientesController.deleteclientes);
-api.patch("/alumno/:id",clientesController.updateclientes);
-api.get("/alumno/:id",clientesController.getclientes);
+api.post("/cliente",clientesController.createclientes);
+api.get("/clientes",clientesController.getclientes);
+api.delete("/cliente/:id",clientesController.deleteclientes);
+api.patch("/cliente/:id",clientesController.updateclientes);
+api.get("/cliente/:id",clientesController.getclientes);
 
 
 module.exports=api;

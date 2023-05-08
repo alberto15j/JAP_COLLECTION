@@ -1,7 +1,7 @@
 const DB_USER="admin";
-const DB_PASSWORD="2525";
+const DB_PASSWORD="2520";
 const DB_HOST="";
-const DB_NAME="aplicacionweb-jap";
+const DB_NAME="jap_collection";
 const DB_PORT="27017";
 
 const API_VERSION="V1";

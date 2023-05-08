@@ -4,7 +4,9 @@
   "description": "Api rest para appa de aplicacciones",
   "main": "index.js",
   "scripts": {
-    "test": " express,mongoose,nodemon,router-dom,cors"
+    "test": " express,mongoose,nodemon,router-dom,cors",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "class.express.commonm"
